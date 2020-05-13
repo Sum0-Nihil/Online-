@@ -1,0 +1,95 @@
+
+/*Applying CSS for the body*/
+body {
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+
+/*Applying CSS for the header*/
+
+ header {
+   background: #566c2b;
+   display: flex;
+   align-items: center;
+   padding: 5px 0;
+ }
+
+/*Applying CSS for the header*/
+header ul {
+list-style: none;
+display: flex;
+padding: 0;
+margin: 0;
+}
+
+header a {
+  color:#fff;
+}
+
+
+/*Applying CSS for the header*/
+
+ .logo {
+  margin:auto;
+ font-size: 30px;
+}
+
+.menu li {
+   padding: 10px;
+   text-decoration: none;
+ }
+
+ .social-link li{
+display: flex;
+padding: 10px;
+ }
+/*Applying CSS for main and aside*/
+ #main {
+   display: flex;
+ }
+
+ aside {
+   flex:0 0 10vw;
+   background: pink;
+   padding:10px;
+ }
+/*Applying CSS for aside and aside ul a*/
+
+aside ul{
+  list-style: none;
+  padding: 0;
+}
+aside ul a {
+color: #5ccc;
+padding: 10px;
+display: block;
+border-bottom: 1px solid gray;
+}
+
+/*Applying CSS for img and h3*/
+
+aside img {
+  width: 150px;
+  height: 300px;
+}
+aside h3 {
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+iframe {
+  width:600%;
+  height:600px;
+  overflow: visible;
+  border: 2px solid #566c2b;
+
+}
+footer {
+  background: #566c2b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
